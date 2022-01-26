@@ -7,6 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+
 .blender-image{
 	height: 150px;
     width: 175px;
@@ -28,6 +31,37 @@
     top: 12px;
 
 }
+
+@media only screen and (max-width: 776px) { 
+	.blender-image{
+		height: 150px;
+		width: 175px;
+		position: relative;
+		top: 43px;
+		left: -34px;
+	}
+
+	.Unreal-image {
+		height: 165px;
+		width: 235px;
+		position: relative;
+		top: 45px;
+		left: -100px;
+
+	}
+
+	.adobe-image {
+		height: 95px;
+		width: 95px;
+		position: relative;
+		top: -85px;
+		left: 180px;
+	}
+
+
+
+
+} 
 
 
 
