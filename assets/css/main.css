@@ -32,6 +32,9 @@
 
 }
 
+
+
+
 @media only screen and (max-width: 776px) { 
 	.blender-image{
 		height: 150px;
@@ -62,6 +65,36 @@
 
 
 } 
+
+
+@media only screen and (max-width: 400px) { 
+	.blender-image {
+		height: 150px;
+		width: 175px;
+		position: relative;
+		top: -50px;
+		left: 0px;
+	}
+
+	.Unreal-image {
+		height: 165px;
+		width: 235px;
+		position: relative;
+		top: -87px;
+		left: -4px;
+	}
+
+	.adobe-image {
+		height: 95px;
+		width: 95px;
+		position: relative;
+		top: -48px;
+		left: -4px;
+	}
+
+	
+	
+}
 
 
 
