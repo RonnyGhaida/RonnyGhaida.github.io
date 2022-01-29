@@ -27,6 +27,18 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+//  Expand function for iamges 
+		$('.img-col').on("click", function (event){
+			event.currentTarget = this;
+			if(this.classList.contains('col-12')){
+				this.classList.remove('col-12')
+				this.classList.add("col-4")
+			}else {
+				this.classList.remove('col-4')
+				this.classList.add("col-12")
+			}
+			
+		})
 
 	// Mobile?
 		if (browser.mobile)
