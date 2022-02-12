@@ -52,6 +52,18 @@
 
 
 @media only screen and (max-width: 776px) { 
+
+	#para{
+		width: 100% !important;
+	}
+
+	#baby-photo{
+		width: 400px !important;
+		height: 400px !important;
+		position: relative !important;
+		left: 29px !important;
+	}
+
 	.blender-image{
 		height: 150px;
 		width: 175px;
